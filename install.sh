@@ -119,7 +119,7 @@ echo -e "${YELLOW}🚀 지금 바로 ViewTrans를 실행해보세요!${NC}"
 
 # 선택적으로 앱 실행
 read -p "지금 ViewTrans를 실행하시겠습니까? (y/N): " -n 1 -r
-echo
+echo ""
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     open -a ViewTrans
     echo -e "${GREEN}✅ ViewTrans가 실행되었습니다!${NC}"
