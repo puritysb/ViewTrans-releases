@@ -51,7 +51,20 @@ echo -e "${GREEN}✅ 임시 디렉토리: $TEMP_DIR${NC}"
 
 # 최신 릴리즈 다운로드
 echo -e "${YELLOW}[3/6] ViewTrans 최신 버전 다운로드 중...${NC}"
-DOWNLOAD_URL="https://github.com/puritysb/ViewTrans-releases/releases/latest/download/ViewTrans-v1.0.0-macos.tar.gz"
+
+# GitHub API를 통해 최신 릴리즈 정보 가져오기
+echo "릴리즈 정보를 확인하는 중..."
+RELEASE_INFO=$(curl -fsSL "https://api.github.com/repos/puritysb/ViewTrans-releases/releases/latest")
+DOWNLOAD_URL=$(echo "$RELEASE_INFO" | grep -o '"browser_download_url": "[^"]*"' | cut -d'"' -f4 | grep -i "\.tar\.gz$" | head -1)
+
+if [[ -z "$DOWNLOAD_URL" ]]; then
+    echo -e "${RED}❌ 오류: 다운로드 가능한 파일을 찾을 수 없습니다.${NC}"
+    echo "사용 가능한 파일들:"
+    echo "$RELEASE_INFO" | grep -o '"name": "[^"]*"' | cut -d'"' -f4
+    exit 1
+fi
+
+echo "다운로드 URL: $DOWNLOAD_URL"
 
 if command -v curl >/dev/null 2>&1; then
     curl -fsSL -o viewtrans.tar.gz "$DOWNLOAD_URL"
