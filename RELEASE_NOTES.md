@@ -1,5 +1,31 @@
 # ViewTrans Release Notes
 
+## Version 1.1.3 - Casetify-style Branding 🎨
+
+### 🆕 New Features
+
+#### **Casetify 스타일 브랜딩**
+- 뷰파인더 왼쪽 상단과 오른쪽 하단에 "V i E W T R A N S" 브랜딩 추가
+- 오른쪽 하단 텍스트는 180도 회전된 미러 효과로 세련된 디자인
+- 흰색 텍스트에 검은색 그림자로 가독성 향상
+
+### 🐛 Bug Fixes
+
+- **HotkeyManager 동시성 오류 수정**
+  - @MainActor 래퍼로 스레드 안전성 보장
+  - 단축키 모니터링 안정성 개선
+  
+- **수동 캡처 좌표 계산 개선**
+  - 더 정확한 영역 선택과 OCR 인식률 향상
+  - Live 번역 모드 안정성 강화
+
+### 🔧 Technical Improvements
+
+- TrialManager 통합 및 평가 기간 관리 개선
+- 비동기 작업 처리 최적화
+
+---
+
 ## Version 1.2.0 - Trial Version System 🎁
 
 ### 🆕 New Features

@@ -1,0 +1,24 @@
+Version: v1.1.3
+Release Date: 2025-06-26
+Title: Casetify-style Branding
+
+What's New:
+- ✨ Added Casetify-style branding ("V i E W T R A N S") in corners
+- 🔄 Bottom-right text is mirrored (180°) for aesthetic balance
+- 🐛 Fixed HotkeyManager concurrency issues
+- 📱 Improved Live translation mode stability
+- 🎯 Enhanced manual capture coordinate calculations
+
+Bug Fixes:
+- Fixed thread safety issues in HotkeyManager with @MainActor
+- Improved accuracy of manual region selection
+- Enhanced OCR recognition rates
+- Stabilized Live translation mode operations
+
+Technical Improvements:
+- Better TrialManager integration
+- Optimized asynchronous task handling
+- Improved coordinate system calculations for captures
+
+Download: ViewTrans-v1.1.3-macos.tar.gz
+Minimum macOS: 13.0 (Ventura)
