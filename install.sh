@@ -258,6 +258,15 @@ main() {
     log_success "ViewTrans $VERSION이 성공적으로 설치되었습니다!"
     log_info "Applications 폴더에서 ViewTrans를 실행할 수 있습니다."
     
+    echo ""
+    echo -e "${YELLOW}===========================================${NC}"
+    echo -e "${YELLOW}        📝 평가판 안내${NC}"
+    echo -e "${YELLOW}===========================================${NC}"
+    echo ""
+    log_warning "이 버전은 15일 무료 평가판입니다."
+    log_info "평가 기간 동안 모든 기능을 제한 없이 사용할 수 있습니다."
+    log_info "정식 버전은 추후 Mac App Store를 통해 출시될 예정입니다."
+    
     # 권한 설정 안내
     show_permissions_guide
     

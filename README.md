@@ -4,6 +4,8 @@
 
 ViewTrans는 macOS용 실시간 화면 번역 앱입니다. 마우스 커서를 텍스트 위에 올리고 Control 키를 두 번 탭하면 즉시 번역됩니다.
 
+🎁 **15일 무료 평가판**: GitHub에서 다운로드한 버전은 15일간 모든 기능을 무료로 체험할 수 있습니다.
+
 ## 🚀 빠른 시작
 
 ### 자동 설치 (권장)
@@ -85,6 +87,13 @@ curl -fsSL https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/in
 
 - [이슈 제보](https://github.com/puritysb/ViewTrans-releases/issues)
 - [토론 참여](https://github.com/puritysb/ViewTrans-releases/discussions)
+
+## 📝 평가판 안내
+
+- **평가 기간**: 15일
+- **제한 사항**: 없음 (모든 기능 사용 가능)
+- **평가 기간 확인**: 앱 실행 시 남은 기간이 콘솔에 표시됩니다
+- **정식 버전**: 추후 Mac App Store를 통해 출시 예정
 
 ## 📄 라이선스
 

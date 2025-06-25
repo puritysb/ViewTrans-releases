@@ -1,5 +1,22 @@
 # ViewTrans Release Notes
 
+## Version 1.2.0 - Trial Version System 🎁
+
+### 🆕 New Features
+
+#### **15일 무료 평가판 시스템**
+- GitHub를 통해 배포되는 버전에 15일 평가 기간 적용
+- 평가 기간 동안 모든 기능을 제한 없이 사용 가능
+- 평가 기간 만료 시 안내 메시지 표시
+- Mac App Store 버전에서는 평가판 제한 없음 (추후 출시 예정)
+
+### 🔧 Technical Improvements
+
+- 조건부 컴파일을 통한 빌드 타겟별 기능 분리
+- UserDefaults 기반의 간단하고 안정적인 평가 기간 관리
+
+---
+
 ## Version 1.0.0 - Initial Release 🎉
 
 ### 🎆 Highlights
