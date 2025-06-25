@@ -1,104 +1,88 @@
 # ViewTrans 🌐
 
-> **Control 키 두 번 탭으로 즉시 번역! macOS 최고의 화면 번역 도구**
+> **화면 번역의 새로운 기준 — 당신이 선택하는 완벽한 번역 경험**
 
-ViewTrans는 macOS용 실시간 화면 번역 앱입니다. 마우스 커서를 텍스트 위에 올리고 Control 키를 두 번 탭하면 즉시 번역됩니다.
+## 🎯 ViewTrans가 특별한 이유
 
-🎁 **15일 무료 평가판**: GitHub에서 다운로드한 버전은 15일간 모든 기능을 무료로 체험할 수 있습니다.
+ViewTrans는 단순한 번역 앱이 아닙니다. **보안과 품질, 두 마리 토끼를 모두 잡은 유일한 macOS 번역 솔루션**입니다.
 
-## 🚀 빠른 시작
+### 🔐 On-Device 모드 — 완벽한 보안, 완전한 무료
+- **100% 프라이버시**: 단 한 바이트도 외부로 전송되지 않습니다
+- **비행기 모드에서도 작동**: 인터넷 연결 전혀 불필요
+- **무제한 무료 사용**: API 비용 걱정 없이 마음껏 번역
+- **초고속 응답**: 네트워크 지연 없는 즉각적인 번역
 
-### 자동 설치 (권장)
-```bash
-curl -fsSL https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/install.sh | bash
-```
+**이런 분들께 완벽합니다:**
+- 회사 기밀 문서를 다루는 비즈니스 전문가
+- 개인정보 보호를 중시하는 프라이버시 우선주의자
+- 오프라인 환경에서 작업하는 디지털 노마드
 
-### 수동 설치
-1. [최신 버전 다운로드](https://github.com/puritysb/ViewTrans-releases/releases/latest)
-2. ViewTrans.app을 Applications 폴더로 이동
-3. 터미널에서 실행: `xattr -dr com.apple.quarantine /Applications/ViewTrans.app`
+### 🚀 API 모드 — 최고 품질의 프리미엄 번역
+- **DeepL**: 전문 번역가 수준의 자연스러운 번역
+- **OpenAI GPT-4**: 문맥을 완벽히 이해하는 AI 번역
+- **Claude**: 뉘앙스까지 살린 섬세한 번역
+- **Google Gemini**: 구글의 최첨단 언어 이해 기술
 
-## ✨ 핵심 기능
+**이런 분들께 완벽합니다:**
+- 완벽한 번역 품질이 필요한 콘텐츠 크리에이터
+- 다국어 커뮤니케이션이 중요한 글로벌 비즈니스
+- 전문 문서를 다루는 연구자와 학자
 
-### ⚡ 인스턴트 번역
-- **Control 키 두 번 탭**으로 커서 위치의 텍스트 즉시 번역
-- 클릭이나 드래그 없이 0.3초 만에 번역 완료
-- 노란색 하이라이트로 인식된 텍스트 표시
+## ⚡ 혁신적인 사용성
 
-### 🎯 영역 선택 번역
-- **Control + Shift + A**로 macOS 스크린샷처럼 영역 선택
-- 실시간 미리보기와 함께 정확한 영역 지정
-- ESC로 언제든 취소 가능
+### Control 키 두 번 탭 — 그게 전부입니다
+마우스를 텍스트 위에 올리고 Control 키를 두 번 탭하세요. 0.3초 만에 번역이 완료됩니다.
 
-### 🔒 완벽한 프라이버시
-- **On-Device 번역**: 인터넷 연결 없이 100% 로컬 처리
-- 회사 기밀, 개인정보 등 민감한 정보도 안전
-- API 비용 없이 무제한 무료 사용
+### macOS와 완벽한 통합
+- Control + Shift + A로 스크린샷처럼 영역 선택
+- 시스템 다크모드 자동 지원
+- 메뉴바에서 한 클릭 접근
 
-### 🌍 프리미엄 번역 옵션
-- **DeepL**: 전문 번역 서비스의 최고 품질
-- **OpenAI GPT-4**: 문맥 이해 기반 자연스러운 번역
-- **Claude**: Anthropic의 고급 언어 이해
-- **Google Gemini**: 구글의 최신 AI 기술
+## 🎁 15일 공식 평가판
+
+지금 다운로드하시는 버전은 **15일 동안 모든 기능을 제한 없이** 체험할 수 있는 공식 평가판입니다.
+
+- ✅ 모든 번역 엔진 사용 가능
+- ✅ 모든 프리미엄 기능 제한 없음
+- ✅ 15일 후 정식 버전 안내
 
 ## 💻 시스템 요구사항
 
 - macOS 13.0 (Ventura) 이상
 - Apple Silicon 또는 Intel Mac
-- 필수 권한: 화면 녹화, 손쉬운 사용
+- 8GB RAM 권장
 
-## 🎯 사용법
+## 🚀 30초 설치
 
-### 인스턴트 번역
-1. 텍스트 위에 마우스 커서를 올립니다
-2. Control 키를 빠르게 두 번 탭
-3. 번역 결과가 팝오버로 표시됩니다
+```bash
+curl -fsSL https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/install.sh | bash
+```
 
-### 영역 선택 번역
-1. Control + Shift + A 키 입력
-2. 번역할 영역을 드래그로 선택
-3. 자동으로 텍스트 인식 및 번역
+또는 [최신 버전 다운로드](https://github.com/puritysb/ViewTrans-releases/releases/latest)
 
-## ⚙️ 번역 엔진 설정
+## 🤝 함께 만들어가는 ViewTrans
 
-### On-Device (기본값)
-추가 설정 없이 즉시 사용 가능. 완전 오프라인, 무료.
+ViewTrans는 사용자 여러분의 피드백으로 성장합니다.
 
-### API 기반 번역
-더 높은 번역 품질을 원한다면:
+- 🐛 [버그 제보](https://github.com/puritysb/ViewTrans-releases/issues/new?labels=bug&template=bug_report.md)
+- 💡 [기능 제안](https://github.com/puritysb/ViewTrans-releases/issues/new?labels=enhancement&template=feature_request.md)
+- 💬 [커뮤니티 참여](https://github.com/puritysb/ViewTrans-releases/discussions)
 
-1. 원하는 서비스의 API 키 발급
-   - [DeepL API](https://www.deepl.com/pro-api)
-   - [OpenAI Platform](https://platform.openai.com/)
-   - [Google AI Studio](https://makersuite.google.com/)
-   - [Anthropic Console](https://console.anthropic.com/)
+여러분의 소중한 의견 하나하나가 ViewTrans를 더 나은 제품으로 만듭니다.
 
-2. ViewTrans 설정에서 API 키 입력
+## ⚖️ 라이선스 및 저작권
 
-## 🔧 문제 해결
+**ViewTrans는 독점 상업용 소프트웨어(Proprietary Commercial Software)입니다.**
 
-| 문제 | 해결 방법 |
-|------|----------|
-| 앱이 실행되지 않음 | 터미널: `xattr -dr com.apple.quarantine /Applications/ViewTrans.app` |
-| 화면 캡처 안 됨 | 시스템 설정 > 개인정보 보호 > 화면 녹화에서 ViewTrans 허용 |
-| 단축키 작동 안 함 | 시스템 설정 > 개인정보 보호 > 손쉬운 사용에서 ViewTrans 허용 |
+© 2024-2025 ViewTrans. All Rights Reserved.
 
-## 📞 지원
-
-- [이슈 제보](https://github.com/puritysb/ViewTrans-releases/issues)
-- [토론 참여](https://github.com/puritysb/ViewTrans-releases/discussions)
-
-## 📝 평가판 안내
-
-- **평가 기간**: 15일
-- **제한 사항**: 없음 (모든 기능 사용 가능)
-- **평가 기간 확인**: 앱 실행 시 남은 기간이 콘솔에 표시됩니다
-- **정식 버전**: 추후 Mac App Store를 통해 출시 예정
-
-## 📄 라이선스
-
-MIT 라이선스 - 자유롭게 사용하세요!
+- 이 소프트웨어의 모든 권리는 개발자에게 있습니다
+- 무단 복제, 수정, 재배포를 금지합니다
+- 평가판 사용 기간은 15일로 제한됩니다
+- 상업적 사용을 위해서는 정식 라이선스가 필요합니다
 
 ---
 
-Made with ❤️ for the macOS community
+**ViewTrans** — 번역의 미래를 경험하세요
+
+*Mac App Store 정식 버전 곧 출시 예정*
