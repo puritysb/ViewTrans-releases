@@ -1,0 +1,17 @@
+ViewTrans v1.1.1 Release Information
+=====================================
+
+Release Date: Tue Jun 24 22:35:11 KST 2025
+Archive: ViewTrans-v1.1.1-macos.tar.gz
+Size: 3.0M
+SHA256: c68f971b0ea94702156079a39ab5813de21c347d6fb67ace5f964368c0ec3492
+
+Installation Command:
+curl -fsSL https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/install.sh | bash
+
+Manual Installation:
+1. Download ViewTrans-v1.1.1-macos.tar.gz
+2. Extract the archive
+3. Move ViewTrans.app to /Applications/
+4. Run: xattr -dr com.apple.quarantine /Applications/ViewTrans.app
+
