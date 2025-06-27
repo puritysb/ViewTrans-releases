@@ -1,5 +1,25 @@
 # ViewTrans Release Notes
 
+## Version 1.2.1 - Translation Filter Improvement 🎯
+
+### 🐛 Bug Fixes
+
+#### **번역 필터링 로직 개선**
+- 번역 대상 언어 비교 로직 수정: 시스템 언어 대신 사용자 설정 번역 대상 언어와 비교
+- 영어 텍스트가 한국어 번역 설정에서 올바르게 번역되지 않던 문제 해결
+- `shouldTranslateText` 메서드에서 `ViewTransSettings.shared.targetLanguage` 사용
+
+#### **릴리즈 빌드 최적화**
+- 디버그 이미지 저장 코드가 릴리즈 빌드에서 완전히 제거됨 확인
+- Actor isolation 문제 해결 (`@MainActor` 추가)
+- 프로덕션 빌드 안정성 향상
+
+### 📋 Changes
+- `Translation.swift`: 번역 필터 로직을 시스템 언어에서 대상 언어 비교로 변경
+- `TrialManager.swift`: Actor isolation 문제 수정
+
+---
+
 ## Version 1.2.0 - Complete Engineering Overhaul 🚀
 
 ### 🆕 Major Improvements
