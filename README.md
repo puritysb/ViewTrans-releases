@@ -2,17 +2,9 @@
 
 > **화면 번역의 새로운 기준 — 당신이 선택하는 완벽한 번역 경험**
 
-![ViewTrans Logo](https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/assets/hoverlingo.png)
-
-## 📸 ViewTrans 실제 동작 화면
-
-### 🎬 실시간 YouTube 자막 번역
-![ViewTrans in Action](https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/assets/screenshot-01.png)
-*일본어 YouTube 동영상을 실시간으로 한국어 자막으로 번역하는 모습*
-
-### 📋 번역 히스토리 관리
-![Translation History](https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/assets/screenshot-02.png)
-*모든 번역 결과가 자동으로 저장되어 언제든 다시 확인 가능*
+<p align="center">
+  <img src="https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/assets/hoverlingo.png" width="120" alt="ViewTrans Logo">
+</p>
 
 ## 🎯 ViewTrans가 특별한 이유
 
@@ -20,21 +12,34 @@ ViewTrans는 단순한 번역 앱이 아닙니다. **보안과 품질, 두 마�
 
 ### 🔐 On-Device 모드 — 완벽한 보안, 완전한 무료
 
-**100% 프라이버시를 위한 On-Device 번역 설정 방법:**
+**100% 프라이버시를 위한 설정 방법:**
 
-#### 1단계: ViewTrans 앱에서 On-Device 모드 활성화
-![ViewTrans On-Device Setting](https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/assets/on-device-check0.png)
+<table>
+<tr>
+<td width="50%">
 
-ViewTrans 메뉴바 아이콘을 클릭한 후 **"On-Device 번역 모드"**를 체크하세요.
+#### 1️⃣ ViewTrans에서 On-Device 모드 활성화
+ViewTrans 메뉴바 아이콘 클릭 → **"On-Device 번역 모드"** 체크
 
-#### 2단계: macOS 시스템 설정에서 온디바이스 번역 활성화
-![macOS Language Settings](https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/assets/on-device-check1.png)
+</td>
+<td width="50%">
 
-1. **시스템 설정** > **언어 및 지역** 으로 이동
-2. **번역** 섹션에서 원하는 언어 조합을 선택
-3. **"온디바이스 모드"** 체크박스를 반드시 활성화
+#### 2️⃣ macOS 시스템 설정
+**시스템 설정** > **언어 및 지역** > **번역** > **"온디바이스 모드"** 체크
 
-> ⚠️ **중요**: 두 설정을 모두 활성화해야만 완전한 온디바이스 번역이 작동합니다!
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/assets/on-device-check0.png" width="300" alt="ViewTrans Setting">
+</td>
+<td>
+<img src="https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/assets/on-device-check1.png" width="300" alt="macOS Setting">
+</td>
+</tr>
+</table>
+
+> ⚠️ **중요**: 두 설정을 모두 활성화해야 완전한 온디바이스 번역이 작동합니다!
 
 **On-Device 모드의 특별한 장점:**
 - **100% 프라이버시**: 단 한 바이트도 외부로 전송되지 않습니다
@@ -42,21 +47,21 @@ ViewTrans 메뉴바 아이콘을 클릭한 후 **"On-Device 번역 모드"**를 
 - **무제한 무료 사용**: API 비용 걱정 없이 마음껏 번역
 - **초고속 응답**: 네트워크 지연 없는 즉각적인 번역
 
-**이런 분들께 완벽합니다:**
-- 회사 기밀 문서를 다루는 비즈니스 전문가
-- 개인정보 보호를 중시하는 프라이버시 우선주의자
-- 오프라인 환경에서 작업하는 디지털 노마드
-
 ### 🚀 API 모드 — 최고 품질의 프리미엄 번역
 - **DeepL**: 전문 번역가 수준의 자연스러운 번역
 - **OpenAI GPT-4**: 문맥을 완벽히 이해하는 AI 번역
 - **Claude**: 뉘앙스까지 살린 섬세한 번역
 - **Google Gemini**: 구글의 최첨단 언어 이해 기술
 
-**이런 분들께 완벽합니다:**
-- 완벽한 번역 품질이 필요한 콘텐츠 크리에이터
-- 다국어 커뮤니케이션이 중요한 글로벌 비즈니스
-- 전문 문서를 다루는 연구자와 학자
+## 📸 ViewTrans 실제 동작 화면
+
+### 🎬 YouTube 실시간 자막 번역
+![ViewTrans in Action](https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/assets/screenshot-01.png)
+*일본어 콘텐츠를 실시간으로 한국어로 번역하여 AR 오버레이로 표시*
+
+### 📋 번역 히스토리 & 세션 관리
+![Translation History](https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/assets/screenshot-02.png)
+*모든 번역 결과가 세션별로 자동 저장되어 편리한 검색과 재사용 가능*
 
 ## ⚡ 혁신적인 사용성
 
@@ -82,15 +87,9 @@ ViewTrans 메뉴바 아이콘을 클릭한 후 **"On-Device 번역 모드"**를 
 - 원본 자막을 가리지 않는 **세련된 반투명 디자인**
 - 화면 어디서든 작동하는 **유니버설 호환성**
 
-**이제 언어 장벽 없이 전 세계의 콘텐츠를 즐기세요!**
-
 ## 🎁 15일 공식 평가판
 
 지금 다운로드하시는 버전은 **15일 동안 모든 기능을 제한 없이** 체험할 수 있는 공식 평가판입니다.
-
-- ✅ 모든 번역 엔진 사용 가능
-- ✅ 모든 프리미엄 기능 제한 없음
-- ✅ 15일 후 정식 버전 안내
 
 ## 💻 시스템 요구사항
 
@@ -114,18 +113,11 @@ ViewTrans는 사용자 여러분의 피드백으로 성장합니다.
 - 💡 [기능 제안](https://github.com/puritysb/ViewTrans-releases/issues/new?labels=enhancement&template=feature_request.md)
 - 💬 [커뮤니티 참여](https://github.com/puritysb/ViewTrans-releases/discussions)
 
-여러분의 소중한 의견 하나하나가 ViewTrans를 더 나은 제품으로 만듭니다.
-
 ## ⚖️ 라이선스 및 저작권
 
 **ViewTrans는 독점 상업용 소프트웨어(Proprietary Commercial Software)입니다.**
 
 © 2024-2025 ViewTrans. All Rights Reserved.
-
-- 이 소프트웨어의 모든 권리는 개발자에게 있습니다
-- 무단 복제, 수정, 재배포를 금지합니다
-- 평가판 사용 기간은 15일로 제한됩니다
-- 상업적 사용을 위해서는 정식 라이선스가 필요합니다
 
 ---
 
