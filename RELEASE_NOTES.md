@@ -1,5 +1,19 @@
 # ViewTrans Release Notes
 
+## v1.2.2 (2025-06-30)
+
+### 🎨 개선사항
+- **번역 스타일 기본값 변경**: 반투명 배경이 기본으로 설정되어 더 자연스러운 AR 오버레이 효과 제공
+- **접근성 권한 체크**: 앱 첫 실행 시 접근성 권한을 즉시 확인하고 친절한 안내 제공
+
+### 🐛 버그 수정
+- InstantTranslationController의 불필요한 변수 경고 수정
+
+### 📝 기타
+- 사용자 경험 개선을 위한 기본 설정 최적화
+
+# ViewTrans Release Notes
+
 ## Version 1.2.1 - Translation Filter Improvement 🎯
 
 ### 🐛 Bug Fixes
