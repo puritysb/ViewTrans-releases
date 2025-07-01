@@ -6,6 +6,20 @@
   <img src="https://raw.githubusercontent.com/puritysb/ViewTrans-releases/main/assets/hoverlingo.png" width="120" alt="ViewTrans Logo">
 </p>
 
+## 🎉 최신 업데이트
+
+### v1.6.0 (2025-07-01)
+- ✨ **New**: Pre-translation Engine으로 기계 번역 품질 대폭 향상
+  - 코드 블록 자동 감지 및 보존
+  - URL과 이메일 주소 인식
+  - 숫자 형식 정규화
+  - 특수 문자 처리 개선
+  - 공백 최적화
+- ✨ **New**: Translation Enhancement 설정 탭 추가
+- 🐛 **Fix**: 브라우저 텍스트 선택 시 발생하는 경계 오류 해결
+- 🐛 **Fix**: Swift Concurrency 컴파일 오류 수정
+- 🔧 **Improvement**: 텍스트 처리 파이프라인 최적화로 번역 속도 향상
+
 ## 🎯 ViewTrans가 특별한 이유
 
 ViewTrans는 단순한 번역 앱이 아닙니다. **보안과 품질, 두 마리 토끼를 모두 잡은 유일한 macOS 번역 솔루션**입니다.
